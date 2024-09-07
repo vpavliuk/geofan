@@ -19,6 +19,8 @@
 		0E23D5CE2C8C99760068EAEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0E23D5D02C8C99770068EAEA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0E23D5D32C8C99770068EAEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E23D5DA2C8C9A550068EAEA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
+		0E23D5DB2C8C9A550068EAEA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,8 @@
 		0E23D5CB2C8C99760068EAEA /* Geofan */ = {
 			isa = PBXGroup;
 			children = (
+				0E23D5DB2C8C9A550068EAEA /* LICENSE */,
+				0E23D5DA2C8C9A550068EAEA /* README.md */,
 				0E23D5CC2C8C99760068EAEA /* GeofanApp.swift */,
 				0E23D5CE2C8C99760068EAEA /* ContentView.swift */,
 				0E23D5D02C8C99770068EAEA /* Assets.xcassets */,
