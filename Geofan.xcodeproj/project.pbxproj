@@ -11,6 +11,9 @@
 		0E23D5CF2C8C99760068EAEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E23D5CE2C8C99760068EAEA /* ContentView.swift */; };
 		0E23D5D12C8C99770068EAEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E23D5D02C8C99770068EAEA /* Assets.xcassets */; };
 		0E23D5D42C8C99770068EAEA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E23D5D32C8C99770068EAEA /* Preview Assets.xcassets */; };
+		0E23D5E12C8C9D890068EAEA /* Visit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E23D5E02C8C9D890068EAEA /* Visit.swift */; };
+		0E23D5E32C8C9E930068EAEA /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E23D5E22C8C9E930068EAEA /* Place.swift */; };
+		0E23D5E62C8C9FC40068EAEA /* VisitsTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E23D5E52C8C9FC40068EAEA /* VisitsTable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +24,9 @@
 		0E23D5D32C8C99770068EAEA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0E23D5DA2C8C9A550068EAEA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0E23D5DB2C8C9A550068EAEA /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = SOURCE_ROOT; };
+		0E23D5E02C8C9D890068EAEA /* Visit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Visit.swift; sourceTree = "<group>"; };
+		0E23D5E22C8C9E930068EAEA /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		0E23D5E52C8C9FC40068EAEA /* VisitsTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisitsTable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,7 @@
 		0E23D5CB2C8C99760068EAEA /* Geofan */ = {
 			isa = PBXGroup;
 			children = (
+				0E23D5DC2C8C9BF10068EAEA /* Visits */,
 				0E23D5DB2C8C9A550068EAEA /* LICENSE */,
 				0E23D5DA2C8C9A550068EAEA /* README.md */,
 				0E23D5CC2C8C99760068EAEA /* GeofanApp.swift */,
@@ -69,6 +76,32 @@
 				0E23D5D32C8C99770068EAEA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E23D5DC2C8C9BF10068EAEA /* Visits */ = {
+			isa = PBXGroup;
+			children = (
+				0E23D5E42C8C9F900068EAEA /* Presentation */,
+				0E23D5DD2C8C9C460068EAEA /* Domain */,
+			);
+			path = Visits;
+			sourceTree = "<group>";
+		};
+		0E23D5DD2C8C9C460068EAEA /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				0E23D5E02C8C9D890068EAEA /* Visit.swift */,
+				0E23D5E22C8C9E930068EAEA /* Place.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		0E23D5E42C8C9F900068EAEA /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				0E23D5E52C8C9FC40068EAEA /* VisitsTable.swift */,
+			);
+			path = Presentation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +175,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0E23D5CF2C8C99760068EAEA /* ContentView.swift in Sources */,
+				0E23D5E62C8C9FC40068EAEA /* VisitsTable.swift in Sources */,
 				0E23D5CD2C8C99760068EAEA /* GeofanApp.swift in Sources */,
+				0E23D5E12C8C9D890068EAEA /* Visit.swift in Sources */,
+				0E23D5E32C8C9E930068EAEA /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
